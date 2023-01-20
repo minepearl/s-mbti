@@ -26,9 +26,7 @@ function next() {
         ($("#SN").val() < 2) ? mbti += "N" : mbti += "S";
         ($("#TF").val() < 2) ? mbti += "F" : mbti += "T";
         ($("#JP").val() < 2) ? mbti += "P" : mbti += "J";
-        document.getElementById("popup").style.display = "block";
-        document.getElementById("question").style.display = "none";
-
+        location.href = "mbti" + "/" + mbti + ".html";
 
     } else {
         $("#progress-bar").attr("value", 100 / 12 * num)
@@ -42,19 +40,7 @@ function next() {
 
 
 
-function popup(){
-    document.getElementById("popup").style.display = "none"
-    document.getElementById("banner").style.display = "block"
-}
 
-function popclose(){
-    var mbti = "";
-        ($("#EI").val() < 2) ? mbti += "I" : mbti += "E";
-        ($("#SN").val() < 2) ? mbti += "N" : mbti += "S";
-        ($("#TF").val() < 2) ? mbti += "F" : mbti += "T";
-        ($("#JP").val() < 2) ? mbti += "P" : mbti += "J";
-    location.href = "mbti" + "/" + mbti + ".html";
-}
 
 var q = {
     1: { "title": "지금은 설날, 0시이다. 지금 잘까?", "type": "JP", "A": "일단 오늘 할 일을 정리하고 잔다.", "B": "일단 자고 내일 상황 보고 생각하다." },
