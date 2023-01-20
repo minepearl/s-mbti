@@ -108,11 +108,15 @@ background: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
   margin-top: 30%;
 }
 .ad_block{
+  text-align: center;
   width: 320px;
   margin: 0 auto;
 }
-.kakao_ad_area{
-  margin-top: 200px;
+.asdf{
+  margin-top: 100px;
+}
+.asd{
+  margin-top: 100px;
 }
 #popup{
   margin: 50px;
