@@ -14,23 +14,29 @@
 육전
 새우튀김
 꼬지
+생선전
+게임기
+게임팩
 
-enfj 떡국
-enfp 윷
-entj 만원
-entp 설빔
-esfj 육전
-esfp 새우튀김
-estj 복주머니
-estp 꼬지
-infj 
-infp 김가루
-intj 윷놀이판
-intp 5만원
-isfj 
-isfp 떡
-istj 
-istp 까치
+
+
+
+enfj 떡국 완료
+enfp 윷 완료
+entj 만원 완료
+entp 설빔 
+esfj 육전 완료
+esfp 새우튀김 
+estj 복주머니 완료
+estp 꼬지 완료
+infj 게임기 
+infp 김가루 완료
+intj 윷놀이판 
+intp 5만원 완료
+isfj 게임팩 
+isfp 떡 완료
+istj 생선전 완료
+istp 까치 
 
 
 
