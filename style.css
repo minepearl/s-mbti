@@ -1,0 +1,102 @@
+.start{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* display none지워야함 */
+    /* display: none; */
+}
+.start_btn{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.8em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    min-width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.start_btn:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  .start_btn:before,.start_btn:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  }
+  .start_btn:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .start_btn:hover:before,.start_btn:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+
+#progress-bar {
+  appearance: none;
+  width: 60%;
+  margin-top: 18px;
+}
+#progress-bar::-webkit-progress-bar {
+  background:#f0f0f0;
+  border-radius:10px;
+  box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress-bar::-webkit-progress-value {
+  border-radius:10px;
+  background: #1d4e97;
+  background: -webkit-linear-gradient(to right, #93b3f9, #1d4e97);
+  background: linear-gradient(to right, #93b3f9, #1d4e97);
+}
+#question{
+  text-align: center;
+  display: none;
+  width: 100%;
+  /* display: block; */
+}
+
+.custom-btn{
+  width: 23rem;
+  height: 75px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-1 {
+  background: #4dccc6;
+  background: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  border: none;
+}
+.btn-1:hover {
+   background: #89d8d3;
+background: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+.down{
+  margin-top: 20px;
+}
+
