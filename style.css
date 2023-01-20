@@ -105,4 +105,71 @@ background: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
 }
 .result{
   display: none;
+  margin-top: 50%;
+}
+.ad_block{
+  width: 320px;
+  margin: 0 auto;
+}
+.kakao_ad_area{
+  margin-top: 200px;
+}
+#popup{
+  margin: 50px;
+  margin: 0 auto;
+  width: 23rem;
+  height: 75px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background: #4dccc6;
+  background: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  border: none;
+}
+#popup:hover{
+  background: #89d8d3;
+background: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+
+#closeup{
+  margin: 50px;
+  margin: 0 auto;
+  width: 23rem;
+  height: 75px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background: #4dccc6;
+  background: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  border: none;
+}
+#closeup:hover{
+  background: #89d8d3;
+background: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+#banner{
+  margin: 0 auto;
+  text-align: center;
 }
